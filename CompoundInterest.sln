@@ -4,6 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompoundInterest", "CompoundInterest\CompoundInterest.csproj", "{05F04E52-7F86-490D-A98C-6B4188ECEA3D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{30B73C9B-E1AF-42A2-89D9-DA454F7238BE} = {30B73C9B-E1AF-42A2-89D9-DA454F7238BE}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompoundInterestLibrary", "CompoundInterestLibrary\CompoundInterestLibrary.csproj", "{30B73C9B-E1AF-42A2-89D9-DA454F7238BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +20,10 @@ Global
 		{05F04E52-7F86-490D-A98C-6B4188ECEA3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05F04E52-7F86-490D-A98C-6B4188ECEA3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05F04E52-7F86-490D-A98C-6B4188ECEA3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30B73C9B-E1AF-42A2-89D9-DA454F7238BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30B73C9B-E1AF-42A2-89D9-DA454F7238BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30B73C9B-E1AF-42A2-89D9-DA454F7238BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30B73C9B-E1AF-42A2-89D9-DA454F7238BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
